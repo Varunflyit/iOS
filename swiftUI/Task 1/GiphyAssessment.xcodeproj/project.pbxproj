@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEA8F6DB2996640D006EF9AD /* GiphyAssessmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA8F6DA2996640D006EF9AD /* GiphyAssessmentApp.swift */; };
+		AEA8F6DD2996640D006EF9AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA8F6DC2996640D006EF9AD /* ContentView.swift */; };
+		AEA8F6DF29966410006EF9AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEA8F6DE29966410006EF9AD /* Assets.xcassets */; };
+		AEA8F6E229966410006EF9AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEA8F6E129966410006EF9AD /* Preview Assets.xcassets */; };
+		AEA8F6E9299664A0006EF9AD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA8F6E8299664A0006EF9AD /* HomeView.swift */; };
+		AEA8F6EB299664A9006EF9AD /* FavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA8F6EA299664A9006EF9AD /* FavView.swift */; };
+		AEA8F6ED29967143006EF9AD /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA8F6EC29967143006EF9AD /* SearchBar.swift */; };
+		AEA8F6EF2996C1EF006EF9AD /* ImageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA8F6EE2996C1EF006EF9AD /* ImageRow.swift */; };
+		AEA8F6F22996C496006EF9AD /* FavListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA8F6F12996C496006EF9AD /* FavListView.swift */; };
+		AEA8F6F42996C4DA006EF9AD /* FavGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA8F6F32996C4DA006EF9AD /* FavGridView.swift */; };
+		AEA8F6F729973B6F006EF9AD /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = AEA8F6F629973B6F006EF9AD /* SDWebImageSwiftUI */; };
+		AEA8F6FA2997CF0A006EF9AD /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA8F6F92997CF0A006EF9AD /* ViewModel.swift */; };
+		AEA8F6FD2997CFF0006EF9AD /* TrendingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA8F6FC2997CFF0006EF9AD /* TrendingModel.swift */; };
+		AEA8F7042998D26D006EF9AD /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA8F7032998D26D006EF9AD /* LocalFileManager.swift */; };
+		AEA8F7062998D287006EF9AD /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA8F7052998D287006EF9AD /* DataModel.swift */; };
+		AEA8F70E2998D34D006EF9AD /* GiphyAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA8F70D2998D34D006EF9AD /* GiphyAssessmentTests.swift */; };
+		AEA8F7162998D869006EF9AD /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA8F7032998D26D006EF9AD /* LocalFileManager.swift */; };
+		AEA8F7172998E4A2006EF9AD /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA8F6F92997CF0A006EF9AD /* ViewModel.swift */; };
+		AEA8F7182998E5BA006EF9AD /* TrendingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA8F6FC2997CFF0006EF9AD /* TrendingModel.swift */; };
+		AEA8F71B2998FBB1006EF9AD /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA8F71A2998FBB1006EF9AD /* HttpClient.swift */; };
+		AEA8F71F2998FC0E006EF9AD /* sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA8F71E2998FC0E006EF9AD /* sample.swift */; };
+		AEA8F7212998FC28006EF9AD /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA8F7202998FC28006EF9AD /* MockURLProtocol.swift */; };
+		AEA8F7222998FC70006EF9AD /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA8F71A2998FBB1006EF9AD /* HttpClient.swift */; };
+		AEB9E37E29A91C15000970E2 /* CustomGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB9E37D29A91C15000970E2 /* CustomGradientView.swift */; };
+		AEB9E3C929B66887000970E2 /* GiphyAssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB9E3C829B66887000970E2 /* GiphyAssessmentUITests.swift */; };
+		AEB9E3CB29B66887000970E2 /* GiphyAssessmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB9E3CA29B66887000970E2 /* GiphyAssessmentUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEA8F70F2998D34D006EF9AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEA8F6CF2996640D006EF9AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEA8F6D62996640D006EF9AD;
+			remoteInfo = GiphyAssessment;
+		};
+		AEB9E3CC29B66887000970E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEA8F6CF2996640D006EF9AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEA8F6D62996640D006EF9AD;
+			remoteInfo = GiphyAssessment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEA8F6D72996640D006EF9AD /* GiphyAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiphyAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA8F6DA2996640D006EF9AD /* GiphyAssessmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyAssessmentApp.swift; sourceTree = "<group>"; };
+		AEA8F6DC2996640D006EF9AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AEA8F6DE29966410006EF9AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEA8F6E129966410006EF9AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AEA8F6E8299664A0006EF9AD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AEA8F6EA299664A9006EF9AD /* FavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavView.swift; sourceTree = "<group>"; };
+		AEA8F6EC29967143006EF9AD /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		AEA8F6EE2996C1EF006EF9AD /* ImageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRow.swift; sourceTree = "<group>"; };
+		AEA8F6F12996C496006EF9AD /* FavListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavListView.swift; sourceTree = "<group>"; };
+		AEA8F6F32996C4DA006EF9AD /* FavGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavGridView.swift; sourceTree = "<group>"; };
+		AEA8F6F92997CF0A006EF9AD /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		AEA8F6FC2997CFF0006EF9AD /* TrendingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingModel.swift; sourceTree = "<group>"; };
+		AEA8F7032998D26D006EF9AD /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
+		AEA8F7052998D287006EF9AD /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		AEA8F70B2998D34D006EF9AD /* GiphyAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiphyAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA8F70D2998D34D006EF9AD /* GiphyAssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyAssessmentTests.swift; sourceTree = "<group>"; };
+		AEA8F71A2998FBB1006EF9AD /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		AEA8F71E2998FC0E006EF9AD /* sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sample.swift; sourceTree = "<group>"; };
+		AEA8F7202998FC28006EF9AD /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
+		AEB9E37D29A91C15000970E2 /* CustomGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGradientView.swift; sourceTree = "<group>"; };
+		AEB9E3C629B66887000970E2 /* GiphyAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiphyAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB9E3C829B66887000970E2 /* GiphyAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyAssessmentUITests.swift; sourceTree = "<group>"; };
+		AEB9E3CA29B66887000970E2 /* GiphyAssessmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyAssessmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEA8F6D42996640D006EF9AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA8F6F729973B6F006EF9AD /* SDWebImageSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA8F7082998D34D006EF9AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB9E3C329B66887000970E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEA8F6CE2996640D006EF9AD = {
+			isa = PBXGroup;
+			children = (
+				AEA8F6D92996640D006EF9AD /* GiphyAssessment */,
+				AEA8F70C2998D34D006EF9AD /* GiphyAssessmentTests */,
+				AEB9E3C729B66887000970E2 /* GiphyAssessmentUITests */,
+				AEA8F6D82996640D006EF9AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEA8F6D82996640D006EF9AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEA8F6D72996640D006EF9AD /* GiphyAssessment.app */,
+				AEA8F70B2998D34D006EF9AD /* GiphyAssessmentTests.xctest */,
+				AEB9E3C629B66887000970E2 /* GiphyAssessmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEA8F6D92996640D006EF9AD /* GiphyAssessment */ = {
+			isa = PBXGroup;
+			children = (
+				AEA8F6DA2996640D006EF9AD /* GiphyAssessmentApp.swift */,
+				AEA8F7192998FBA9006EF9AD /* Helper */,
+				AEA8F6FE2997D1F4006EF9AD /* View */,
+				AEA8F6FB2997CFE4006EF9AD /* Model */,
+				AEA8F6F82997CEFD006EF9AD /* ViewModel */,
+				AEA8F6DE29966410006EF9AD /* Assets.xcassets */,
+				AEA8F6E029966410006EF9AD /* Preview Content */,
+			);
+			path = GiphyAssessment;
+			sourceTree = "<group>";
+		};
+		AEA8F6E029966410006EF9AD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AEA8F6E129966410006EF9AD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AEA8F6F02996C47B006EF9AD /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				AEA8F6F12996C496006EF9AD /* FavListView.swift */,
+				AEA8F6F32996C4DA006EF9AD /* FavGridView.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		AEA8F6F82997CEFD006EF9AD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AEA8F6F92997CF0A006EF9AD /* ViewModel.swift */,
+				AEA8F7032998D26D006EF9AD /* LocalFileManager.swift */,
+				AEA8F7052998D287006EF9AD /* DataModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AEA8F6FB2997CFE4006EF9AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AEA8F6FC2997CFF0006EF9AD /* TrendingModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AEA8F6FE2997D1F4006EF9AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AEA8F7022997F63D006EF9AD /* Items */,
+				AEA8F6DC2996640D006EF9AD /* ContentView.swift */,
+				AEA8F6E8299664A0006EF9AD /* HomeView.swift */,
+				AEA8F6EA299664A9006EF9AD /* FavView.swift */,
+				AEB9E37D29A91C15000970E2 /* CustomGradientView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AEA8F7022997F63D006EF9AD /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				AEA8F6F02996C47B006EF9AD /* Favorites */,
+				AEA8F6EC29967143006EF9AD /* SearchBar.swift */,
+				AEA8F6EE2996C1EF006EF9AD /* ImageRow.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		AEA8F70C2998D34D006EF9AD /* GiphyAssessmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEA8F70D2998D34D006EF9AD /* GiphyAssessmentTests.swift */,
+				AEA8F71C2998FBD6006EF9AD /* Helper */,
+			);
+			path = GiphyAssessmentTests;
+			sourceTree = "<group>";
+		};
+		AEA8F7192998FBA9006EF9AD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				AEA8F71A2998FBB1006EF9AD /* HttpClient.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		AEA8F71C2998FBD6006EF9AD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				AEA8F71E2998FC0E006EF9AD /* sample.swift */,
+				AEA8F7202998FC28006EF9AD /* MockURLProtocol.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		AEB9E3C729B66887000970E2 /* GiphyAssessmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AEB9E3C829B66887000970E2 /* GiphyAssessmentUITests.swift */,
+				AEB9E3CA29B66887000970E2 /* GiphyAssessmentUITestsLaunchTests.swift */,
+			);
+			path = GiphyAssessmentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEA8F6D62996640D006EF9AD /* GiphyAssessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEA8F6E529966410006EF9AD /* Build configuration list for PBXNativeTarget "GiphyAssessment" */;
+			buildPhases = (
+				AEA8F6D32996640D006EF9AD /* Sources */,
+				AEA8F6D42996640D006EF9AD /* Frameworks */,
+				AEA8F6D52996640D006EF9AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GiphyAssessment;
+			packageProductDependencies = (
+				AEA8F6F629973B6F006EF9AD /* SDWebImageSwiftUI */,
+			);
+			productName = GiphyAssessment;
+			productReference = AEA8F6D72996640D006EF9AD /* GiphyAssessment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEA8F70A2998D34D006EF9AD /* GiphyAssessmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEA8F7132998D34D006EF9AD /* Build configuration list for PBXNativeTarget "GiphyAssessmentTests" */;
+			buildPhases = (
+				AEA8F7072998D34D006EF9AD /* Sources */,
+				AEA8F7082998D34D006EF9AD /* Frameworks */,
+				AEA8F7092998D34D006EF9AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEA8F7102998D34D006EF9AD /* PBXTargetDependency */,
+			);
+			name = GiphyAssessmentTests;
+			productName = GiphyAssessmentTests;
+			productReference = AEA8F70B2998D34D006EF9AD /* GiphyAssessmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEB9E3C529B66887000970E2 /* GiphyAssessmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEB9E3D029B66887000970E2 /* Build configuration list for PBXNativeTarget "GiphyAssessmentUITests" */;
+			buildPhases = (
+				AEB9E3C229B66887000970E2 /* Sources */,
+				AEB9E3C329B66887000970E2 /* Frameworks */,
+				AEB9E3C429B66887000970E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEB9E3CD29B66887000970E2 /* PBXTargetDependency */,
+			);
+			name = GiphyAssessmentUITests;
+			productName = GiphyAssessmentUITests;
+			productReference = AEB9E3C629B66887000970E2 /* GiphyAssessmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEA8F6CF2996640D006EF9AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					AEA8F6D62996640D006EF9AD = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					AEA8F70A2998D34D006EF9AD = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = AEA8F6D62996640D006EF9AD;
+					};
+					AEB9E3C529B66887000970E2 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = AEA8F6D62996640D006EF9AD;
+					};
+				};
+			};
+			buildConfigurationList = AEA8F6D22996640D006EF9AD /* Build configuration list for PBXProject "GiphyAssessment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEA8F6CE2996640D006EF9AD;
+			packageReferences = (
+				AEA8F6F529973B6F006EF9AD /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = AEA8F6D82996640D006EF9AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEA8F6D62996640D006EF9AD /* GiphyAssessment */,
+				AEA8F70A2998D34D006EF9AD /* GiphyAssessmentTests */,
+				AEB9E3C529B66887000970E2 /* GiphyAssessmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEA8F6D52996640D006EF9AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA8F6E229966410006EF9AD /* Preview Assets.xcassets in Resources */,
+				AEA8F6DF29966410006EF9AD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA8F7092998D34D006EF9AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB9E3C429B66887000970E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEA8F6D32996640D006EF9AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA8F6EB299664A9006EF9AD /* FavView.swift in Sources */,
+				AEA8F7042998D26D006EF9AD /* LocalFileManager.swift in Sources */,
+				AEA8F6FA2997CF0A006EF9AD /* ViewModel.swift in Sources */,
+				AEA8F6E9299664A0006EF9AD /* HomeView.swift in Sources */,
+				AEA8F6F42996C4DA006EF9AD /* FavGridView.swift in Sources */,
+				AEA8F7062998D287006EF9AD /* DataModel.swift in Sources */,
+				AEA8F6EF2996C1EF006EF9AD /* ImageRow.swift in Sources */,
+				AEA8F71B2998FBB1006EF9AD /* HttpClient.swift in Sources */,
+				AEA8F6F22996C496006EF9AD /* FavListView.swift in Sources */,
+				AEA8F6FD2997CFF0006EF9AD /* TrendingModel.swift in Sources */,
+				AEA8F6ED29967143006EF9AD /* SearchBar.swift in Sources */,
+				AEA8F6DD2996640D006EF9AD /* ContentView.swift in Sources */,
+				AEA8F6DB2996640D006EF9AD /* GiphyAssessmentApp.swift in Sources */,
+				AEB9E37E29A91C15000970E2 /* CustomGradientView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA8F7072998D34D006EF9AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA8F71F2998FC0E006EF9AD /* sample.swift in Sources */,
+				AEA8F70E2998D34D006EF9AD /* GiphyAssessmentTests.swift in Sources */,
+				AEA8F7172998E4A2006EF9AD /* ViewModel.swift in Sources */,
+				AEA8F7212998FC28006EF9AD /* MockURLProtocol.swift in Sources */,
+				AEA8F7222998FC70006EF9AD /* HttpClient.swift in Sources */,
+				AEA8F7182998E5BA006EF9AD /* TrendingModel.swift in Sources */,
+				AEA8F7162998D869006EF9AD /* LocalFileManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB9E3C229B66887000970E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB9E3CB29B66887000970E2 /* GiphyAssessmentUITestsLaunchTests.swift in Sources */,
+				AEB9E3C929B66887000970E2 /* GiphyAssessmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEA8F7102998D34D006EF9AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEA8F6D62996640D006EF9AD /* GiphyAssessment */;
+			targetProxy = AEA8F70F2998D34D006EF9AD /* PBXContainerItemProxy */;
+		};
+		AEB9E3CD29B66887000970E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEA8F6D62996640D006EF9AD /* GiphyAssessment */;
+			targetProxy = AEB9E3CC29B66887000970E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AEA8F6E329966410006EF9AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEA8F6E429966410006EF9AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEA8F6E629966410006EF9AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GiphyAssessment/Preview Content\"";
+				DEVELOPMENT_TEAM = NG3KRAG4RU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need microphone access for uploading audio";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GiphyAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEA8F6E729966410006EF9AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GiphyAssessment/Preview Content\"";
+				DEVELOPMENT_TEAM = NG3KRAG4RU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need microphone access for uploading audio";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GiphyAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AEA8F7112998D34D006EF9AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BCXAVK4V7Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GiphyAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GiphyAssessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GiphyAssessment";
+			};
+			name = Debug;
+		};
+		AEA8F7122998D34D006EF9AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BCXAVK4V7Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GiphyAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GiphyAssessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GiphyAssessment";
+			};
+			name = Release;
+		};
+		AEB9E3CE29B66887000970E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BCXAVK4V7Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GiphyAssessmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GiphyAssessment;
+			};
+			name = Debug;
+		};
+		AEB9E3CF29B66887000970E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BCXAVK4V7Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GiphyAssessmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GiphyAssessment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEA8F6D22996640D006EF9AD /* Build configuration list for PBXProject "GiphyAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA8F6E329966410006EF9AD /* Debug */,
+				AEA8F6E429966410006EF9AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEA8F6E529966410006EF9AD /* Build configuration list for PBXNativeTarget "GiphyAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA8F6E629966410006EF9AD /* Debug */,
+				AEA8F6E729966410006EF9AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEA8F7132998D34D006EF9AD /* Build configuration list for PBXNativeTarget "GiphyAssessmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA8F7112998D34D006EF9AD /* Debug */,
+				AEA8F7122998D34D006EF9AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEB9E3D029B66887000970E2 /* Build configuration list for PBXNativeTarget "GiphyAssessmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB9E3CE29B66887000970E2 /* Debug */,
+				AEB9E3CF29B66887000970E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AEA8F6F529973B6F006EF9AD /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AEA8F6F629973B6F006EF9AD /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AEA8F6F529973B6F006EF9AD /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AEA8F6CF2996640D006EF9AD /* Project object */;
+}
